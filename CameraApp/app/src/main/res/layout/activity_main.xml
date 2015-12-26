@@ -3,8 +3,21 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    android:background="#83F52C"
     >
-    <Button android:id="@+id/button1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Take a picture"></Button>
-    <ImageView android:id="@+id/imageView1" android:layout_height="fill_parent"  android:layout_width="fill_parent"></ImageView>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Take a picture">
+
+    </Button>
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:src="@mipmap/ic_launcher">
+
+    </ImageView>
 
 </LinearLayout>
